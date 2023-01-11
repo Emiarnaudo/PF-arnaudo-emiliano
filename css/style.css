@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+h1{
+    text-align: center; 
+    background-image: url(/multimedia/burger\ fondo.jpg);
+
+}
+h3{
+    text-align: center;
+    background-color: rgb(218, 16, 16);
+}
+.foto__burger{
+    width: 70%;
+    margin: 0;
+    padding: 10px;
+}
+
+.menu {
+    display: inline block;
+    border-radius: 20px;
+    background-color: #3f12a7;
+
+}
+.menu__item{
+    display: inline;
+    margin-right: 20%;
+    text-decoration: none;
+    list-style: none;
+    background-color: #da62df;
+   
+}
+main{
+    text-align: center;
+    margin: 0;
+    background-color: aqua;
+    padding: 10px;
+}
+body{
+    background-image: url(/multimedia/fondo.png);
+
+}
+header{
+    padding: 10px;
+    margin: 10px;
+}
+
+
+/* pagina 2 combo*/
+.combo {
+    width: 30%;
+    background-color: #199cbd;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-inline: 1.5%;
+    margin-block: 20px;
+    overflow: auto;
+    position: relative;
+    border: 4px double #3f12a7;
+}
+
+.combo__imagen {
+    width: 100%;
+}
+
+.combo__titulo {
+    font-size: 18px;
+}
+
+.combo__info {
+    font-size: 14px;
+}
+
+.combo__boton {   
+    background-color: #da62df;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.combo__info {
+    margin-bottom: 10px;
+}
+
+.cartita__wpp {
+    width: 50px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
