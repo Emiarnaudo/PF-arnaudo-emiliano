@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    h2{
+        background-color: #dedceb;
+        padding-left: 10px;
+        padding-right: 20px;
+        text-align: left;
+        border-radius: 100px;
+        flex-direction: left;
+    }
+        
+    
+
+.slogan{
+    display: flex;
+    justify-content: center;
+}
+
+.slogan-text{
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    background-color:rgb(182, 30, 162);
+    border:solid black 2px;
+    border-radius: 20px;
+}
+
+.header-main-page{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.nav-buttons{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: space-between;
+
+    }
+
+.logo-principal{
+    width: 15%;
+    height: 25%;
+    border-radius: 50%;
+    border:solid 2px black;
+}
+.mainlogo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.foto__burger{
+    width: 70%;
+    margin: 0;
+    padding: 10px;
+}
+.d-block w-10{
+width: 60%;
+height: 300px; 
+border-top-left-radius: calc(0.25rem - 30px);
+border-top-right-radius: calc(0.25rem - 30px);}
+
+.carousel-item {
+    height: 75vh;
+    min-height: 200px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+.menu {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu__item{
+    background-color: #7b80cc;
+    list-style:none;
+    border: none;
+      color: rgb(61, 10, 156);
+      padding: 10px 20px;
+      text-align: center;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      -webkit-transition-duration: 0.4s;
+      transition-duration: 0.4s;
+      cursor: pointer;
+      text-decoration: none;
+      text-transform: uppercase;
+      border-radius: 20px;
+
+}
+.menu__item:hover{
+    background-color:rgb(6, 18, 245);
+
+}
+
+.menu__item > a{
+    text-decoration: none;
+    color: black;
+}
+
+main{
+    text-align: center;
+    margin: 0;
+    background-image: url('../multimedia/fondo\ menu.jpg');
+    padding: 30px;
+}
+
+body{
+    background-image: url(/multimedia/fondo\ pagina.png)
+
+}
+
+header{
+    padding: 10px;
+    margin: 10px;
+}
+
+
+/* pagina 2 combo*/
+.combo {
+    width: 30%;
+    background-color: #7b80cc;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-inline: 1.5%;
+    margin-block: 20px;
+    overflow: auto;
+    position: relative;
+    border: 3px solid #fffdfd;
+    transition: transform .5s;
+}
+.combo:hover{
+    transform: scale(1.1) translateY(-35px);
+    background-color: #59c8e4;
+}
+
+.combo__imagen {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.combo__titulo {
+    font-size: 18px;
+}
+
+.combo__info {
+    font-size: 14px;
+}
+
+.combo__boton {   
+    background-color: #da62df;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block; 
+        color: white;
+        transform: translate;
+        font-family: 'Rubik One', sans-serif;
+        text-decoration: none;
+        font-size: 1vw;
+        transform: translate(10%-10%);
+        transition: all .5s;
+        background-color: #3498db;
+}
+
+.combo__info {
+    margin-bottom: 10px;
+}
+
+.cartita__wpp {
+    width: 50px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.social{
+    
+    width: 1px;
+    position:center;
+    top: 20px;;
+    right:0;
+}
