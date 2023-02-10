@@ -208,9 +208,10 @@ header.main-header{
   .wrap-footer{
     display: grid;
     grid-template-columns: 30% 15% 15% 20%;
-    column-gap: 5%;
-    padding: 10px;
+    column-gap: 10%;
+    padding: 1rem;
     max-width: 1200px;
+
   }
   
   .text-element-footer{
