@@ -396,11 +396,12 @@ element-footer h5 {
     grid-template-columns: repeat(1, 1fr);
   }
 }
-/* Gerlía de Imágenes */
+/* Galeria de Imágenes */
 .imagen-galeria, .imagen-galeria img {
   max-width: 275px;
-  border-radius: 4px;
-  height: 275px;
+  border-radius: 6px;
+  height: 250px;
+  width: 250px;
 }
 
 @media (max-width: 880px) {
