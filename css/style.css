@@ -209,8 +209,7 @@ header.main-header{
     display: grid;
     grid-template-columns: 30% 15% 15% 20%;
     column-gap: 5%;
-    padding: 1rem;
-    margin: 10px auto;
+    padding: 10px;
     max-width: 1200px;
   }
   
@@ -288,10 +287,11 @@ header.main-header{
     scroll-snap-align: center;
   }
   /* combos */
+  .fondo-combo{
+    background-image: url(../multimedia/fondo\ menu2.jpg)
+  }
 
 .section{
-  max-width: 75%;
-  margin: 15px;
   padding: 15px;
   justify-content: center;
 }
@@ -366,6 +366,8 @@ header.main-header{
   height: 275px;
   width: 275px;
   object-fit: cover;
+  border: solid 1px rgb(35, 112, 156);
+  border-radius: 10px;
 }
 
 /*fondo nosotros*/
